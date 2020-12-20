@@ -33,7 +33,7 @@ public class RotatingArray {
 		int n = sc.nextInt();
 		
 		System.out.print("From which number do you want to rotate you array : ");
-		int d = sc.nextInt();
+		int r = sc.nextInt();
 		
 		int arr[] = new int[n];
 		
@@ -43,7 +43,7 @@ public class RotatingArray {
 			arr[i] = sc.nextInt();
 		}
 		
-		rotateArray(arr,n,d);
+		rotateArray(arr,n,r);
 	}
 
 }
