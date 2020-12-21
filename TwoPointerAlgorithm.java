@@ -21,7 +21,7 @@ public class TwoPointerAlgorithm {
 		
 		while(i<j) {
 			if(a[i]+a[j] == x) {
-				tp++;
+				totalPairs++;
 				i++;
 			}
 			else if(a[i]+a[j] < x) i++;
