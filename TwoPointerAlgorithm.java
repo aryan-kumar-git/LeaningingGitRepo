@@ -4,13 +4,13 @@ public class TwoPointerAlgorithm {
 	
 	public static void main(String[] args) {
 		
-		int arr[] = {2,3,5,4,1,7,9,8,6,10};
-		int n = arr.length;
+		int array[] = {2,3,5,4,1,7,9,8,6,10};
+		int n = array.length;
 		int sum = 10;
-		Arrays.sort(arr);
+		Arrays.sort(array);
 		
 		System.out.print("The number of pairs in the array is : ");
-		System.out.print(findPairs(arr,n,sum));
+		System.out.print(findPairs(array,n,sum));
 	}
 	
 	static int findPairs(int a[], int n, int x) {
